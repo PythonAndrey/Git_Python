@@ -11,15 +11,24 @@
 # Формат выходных данных
 # Программа должна вывести цифру в соответствии с условием задачи.
 
-num = int(input())
-one, two, three = num // 100, num // 10 % 10, num % 10
-#print(one, two, three)
-average = (one + two + three) - (max(one, two, three) + min(one, two, three))
-# print(average)
-#print(max(one, two, three) - min(one, two, three))
-if average == max(one, two, three) - min(one, two, three):
-    print('Число интересное')
-else:
-    print('Число неинтересное')
+# num = int(input())
+# one, two, three = num // 100, num // 10 % 10, num % 10
+# #print(one, two, three)
+# average = (one + two + three) - (max(one, two, three) + min(one, two, three))
+# # print(average)
+# #print(max(one, two, three) - min(one, two, three))
+# if average == max(one, two, three) - min(one, two, three):
+#     print('Число интересное')
+# else:
+#     print('Число неинтересное')
 
+# 6.1 (9) Числовые типы данных: int, float
     
+# Даны пять чисел. Напишите программу, которая вычисляет сумму их модулей.
+# Формат входных данных
+# На вход программе подается пять действительных чисел каждое на отдельной строке.
+# Формат выходных данных
+# Программа должна вывести одно число – сумму модулей введёных чисел.
+
+a1, a2, a3, a4, a5 = abs(int(input())), abs(int(input())), abs(int(input())), abs(int(input)), abs(int(input()))
+print(a1 + a2 + a3 + a4 + a5)
