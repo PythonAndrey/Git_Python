@@ -55,7 +55,14 @@
 # Формат выходных данных
 # Программа должна вывести одно число – евклидово расстояние.
 
-from math import sqrt
-x1, y1, x2, y2 = float(input()), float(input()), float(input()),float(input())
-print(sqrt(((x1 - x2)**2) + ((y1 - y2)**2)))
+# from math import sqrt
+# x1, y1, x2, y2 = float(input()), float(input()), float(input()),float(input())
+# print(sqrt(((x1 - x2)**2) + ((y1 - y2)**2)))
+
+#6.2 (3) Модуль math
+
+from math import pi
+r = float(input())
+print(pi * (r**2))
+print(2 * pi * r)
 
