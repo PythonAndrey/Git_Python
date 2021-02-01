@@ -61,8 +61,10 @@
 
 #6.2 (3) Модуль math
 
-from math import pi
-r = float(input())
-print(pi * (r**2))
-print(2 * pi * r)
+# from math import pi
+# r = float(input())
+# print(pi * (r**2))
+# print(2 * pi * r)
+
+#6.2 (4) Модуль math
 
