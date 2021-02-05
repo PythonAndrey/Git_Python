@@ -143,3 +143,33 @@
 #import math
 #n, a = int(input()), float(input())
 #print(n * (a ** 2) / (4 * math.tan(math.pi / n)))
+
+# --------------------------------------------------------
+
+# 6.3 (5) Строковый тип данных
+
+#txt = '''"Python is a great language!", said Fred. "I don't ever remember having this much fun before."'''
+# print(txt)
+
+# ---------------------------------------------------------
+
+# 6.3 (6) Строковый тип данных
+
+#name1, name2 = input(), input()
+#print('Hello ' + name1, name2 + '! You just delved into Python')
+
+# -----------------------------------------------------------
+
+# 6.3 (7) Строковый тип данных
+
+#football = input()
+#print('Футбольная команда ' + football +
+      # ' имеет длину ' + str(len(football)) + ' символов')
+      
+# ----------------------------------------------------------
+
+# 6.3 (8) Строковый тип данных
+
+#sity1, sity2, sity3 = input(), input(), input()
+#print(min(sity1, sity2, sity3, key=len))
+#print(max(sity1, sity2, sity3, key=len))
