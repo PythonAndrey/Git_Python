@@ -124,10 +124,22 @@
 #Программа должна вывести вещественные корни уравнения если они существуют или текст «Нет корней» в противном случае.
 # Примечание. Если уравнение имеет два корня, то следует вывести их в порядке возрастания.
 
-a, b, c = float(input()), float(input()), float(input())
-d = (b ** 2) - (4 * a * c)
-x = - b / (2 * a) 
-if d < 0:
-    print('Нет корней')
-elif d == 0:
-    print(x)
+#import math
+
+#a, b, c = float(input()), float(input()), float(input())
+#d = b ** 2 - 4 * a * c
+
+#if d > 0:
+    #x1 = (-b + math.sqrt(d)) / (2 * a)
+    #x2 = (-b - math.sqrt(d)) / (2 * a)
+    #print(x1)
+    #print(x2)
+#elif d == 0:
+    #x = - b / (2 * a)
+    #print(x)
+#else:
+    #print('Нет корней')
+
+#import math
+#n, a = int(input()), float(input())
+#print(n * (a ** 2) / (4 * math.tan(math.pi / n)))
