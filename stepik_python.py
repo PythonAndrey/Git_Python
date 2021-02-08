@@ -173,3 +173,35 @@
 #sity1, sity2, sity3 = input(), input(), input()
 #print(min(sity1, sity2, sity3, key=len))
 #print(max(sity1, sity2, sity3, key=len))
+
+# -----------------------------------------------------------
+
+# (2) 7.1 Цикл for
+
+#for i in range(10):
+    #print('Python is awesome!')
+
+# ------------------------------------------------------------
+
+# (3) 7.1 Цикл for
+
+#line, repeat = input(), int(input())
+#for i in range(repeat):
+    #print(line)
+
+# --------------------------------------------------------------
+
+# (4) 7.1 Цикл for
+
+for i in range(6):
+    print('AAA')
+for i in range(5):
+    print('BBBB')
+print('E')
+for i in range(9):
+    print('TTTTT')
+print('G')
+        
+
+
+
