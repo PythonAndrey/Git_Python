@@ -124,6 +124,7 @@
 #Программа должна вывести вещественные корни уравнения если они существуют или текст «Нет корней» в противном случае.
 # Примечание. Если уравнение имеет два корня, то следует вывести их в порядке возрастания.
 
+<<<<<<< HEAD
 a, b, c = float(input()), float(input()), float(input())
 d = (b ** 2) - (4 * a * c)
 x = - b / (2 * a) 
@@ -131,3 +132,94 @@ if d < 0:
     print('Нет корней')
 elif d == 0:
     print(x)
+=======
+#import math
+
+#a, b, c = float(input()), float(input()), float(input())
+#d = b ** 2 - 4 * a * c
+
+#if d > 0:
+    #x1 = (-b + math.sqrt(d)) / (2 * a)
+    #x2 = (-b - math.sqrt(d)) / (2 * a)
+    #print(x1)
+    #print(x2)
+#elif d == 0:
+    #x = - b / (2 * a)
+    #print(x)
+#else:
+    #print('Нет корней')
+
+#import math
+#n, a = int(input()), float(input())
+#print(n * (a ** 2) / (4 * math.tan(math.pi / n)))
+
+# --------------------------------------------------------
+
+# 6.3 (5) Строковый тип данных
+
+#txt = '''"Python is a great language!", said Fred. "I don't ever remember having this much fun before."'''
+# print(txt)
+
+# ---------------------------------------------------------
+
+# 6.3 (6) Строковый тип данных
+
+#name1, name2 = input(), input()
+#print('Hello ' + name1, name2 + '! You just delved into Python')
+
+# -----------------------------------------------------------
+
+# 6.3 (7) Строковый тип данных
+
+#football = input()
+#print('Футбольная команда ' + football +
+      # ' имеет длину ' + str(len(football)) + ' символов')
+      
+# ----------------------------------------------------------
+
+# 6.3 (8) Строковый тип данных
+
+#sity1, sity2, sity3 = input(), input(), input()
+#print(min(sity1, sity2, sity3, key=len))
+#print(max(sity1, sity2, sity3, key=len))
+
+# -----------------------------------------------------------
+
+# (2) 7.1 Цикл for
+
+#for i in range(10):
+    #print('Python is awesome!')
+
+# ------------------------------------------------------------
+
+# (3) 7.1 Цикл for
+
+#line, repeat = input(), int(input())
+#for i in range(repeat):
+    #print(line)
+
+# --------------------------------------------------------------
+
+# (4) 7.1 Цикл for
+
+# for i in range(6):
+#     print('AAA')
+# for i in range(5):
+#     print('BBBB')
+# print('E')
+# for i in range(9):
+#     print('TTTTT')
+# print('G')
+
+#-----------------------------------------------------------------
+
+ # (5) 7.1 Цикл for
+
+# n = int(input())
+# for i in range(n):
+#     print('*' * 19)
+        
+
+
+
+>>>>>>> a1fe7c9f8707f3d62135f6df4a0b42b8e8d27385
