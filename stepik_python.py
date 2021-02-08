@@ -30,7 +30,7 @@
 # Формат входных данных
 # На вход программе подается пять действительных чисел каждое на отдельной строке.
 # Формат выходных данных
-# Программа должна вывести одно число – сумму модулей введёных чисел.
+# Программа должна вывести одно число – сумму модулей введённых чисел.
 
 # a1, a2, a3, a4, a5 = float(input()), float(input()), float(input()), float(input()), float(input())
 # print(abs(a1) + abs(a2) + abs(a3) + abs(a4) + abs(a5))
@@ -42,7 +42,7 @@
 # На вход программе подается четыре целых числа, каждое на отдельной строке – p_{1}, \, p_{2}, \, q_{1}, \, q_{2}p 
 
 # Формат выходных данных
-# Программа должна вывести одно число – манхэттенское расстояние.
+# Программа должна вывести одно число – расстояние.
 # p1, p2, q1, q2 = int(input()), int(input()), int(input()),int(input())
 # print(abs(p1 - q1) + abs(p2 - q2))
 
@@ -92,7 +92,8 @@
 # На вход программе подается одно вещественное число xx измеряемое в градусах​. 
 # Формат выходных данных
 # Программа должна вывести одно число – значение тригонометрического выражения.
-# Примечание 1. Тригонометрические функции принимают аргумент в радианах. Чтобы перевести градусы в радианы, воспользуйтесь формулой
+# Примечание 1. Тригонометрические функции принимают аргумент в радианах.
+# Чтобы перевести градусы в радианы, воспользуйтесь формулой
 
 # from math import sin, cos, tan, radians
 # x = float(input())
@@ -140,64 +141,64 @@
 # d = b ** 2 - 4 * a * c
 
 # if d > 0:
-    # x1 = (-b + math.sqrt(d)) / (2 * a)
-    #x2 = (-b - math.sqrt(d)) / (2 * a)
-    #print(x1)
-    #print(x2)
-#elif d == 0:
-    #x = - b / (2 * a)
-    #print(x)
-#else:
-    #print('Нет корней')
+# x1 = (-b + math.sqrt(d)) / (2 * a)
+# x2 = (-b - math.sqrt(d)) / (2 * a)
+# print(x1)
+# print(x2)
+# elif d == 0:
+# x = - b / (2 * a)
+# print(x)
+# else:
+# print('Нет корней')
 
-#import math
-#n, a = int(input()), float(input())
-#print(n * (a ** 2) / (4 * math.tan(math.pi / n)))
+# import math
+# n, a = int(input()), float(input())
+# print(n * (a ** 2) / (4 * math.tan(math.pi / n)))
 
 # --------------------------------------------------------
 
 # 6.3 (5) Строковый тип данных
 
-#txt = '''"Python is a great language!", said Fred. "I don't ever remember having this much fun before."'''
+# txt = '''"Python is a great language!", said Fred. "I don't ever remember having this much fun before."'''
 # print(txt)
 
 # ---------------------------------------------------------
 
 # 6.3 (6) Строковый тип данных
 
-#name1, name2 = input(), input()
-#print('Hello ' + name1, name2 + '! You just delved into Python')
+# name1, name2 = input(), input()
+# print('Hello ' + name1, name2 + '! You just delved into Python')
 
 # -----------------------------------------------------------
 
 # 6.3 (7) Строковый тип данных
 
-#football = input()
-#print('Футбольная команда ' + football +
-      # ' имеет длину ' + str(len(football)) + ' символов')
+# football = input()
+# print('Футбольная команда ' + football +
+# ' имеет длину ' + str(len(football)) + ' символов')
       
 # ----------------------------------------------------------
 
 # 6.3 (8) Строковый тип данных
 
-#sity1, sity2, sity3 = input(), input(), input()
-#print(min(sity1, sity2, sity3, key=len))
-#print(max(sity1, sity2, sity3, key=len))
+# sity1, sity2, sity3 = input(), input(), input()
+# print(min(sity1, sity2, sity3, key=len))
+# print(max(sity1, sity2, sity3, key=len))
 
 # -----------------------------------------------------------
 
 # (2) 7.1 Цикл for
 
-#for i in range(10):
-    #print('Python is awesome!')
+# for i in range(10):
+# print('Python is awesome!')
 
 # ------------------------------------------------------------
 
 # (3) 7.1 Цикл for
 
-#line, repeat = input(), int(input())
-#for i in range(repeat):
-    #print(line)
+# line, repeat = input(), int(input())
+# for i in range(repeat):
+#    print(line)
 
 # --------------------------------------------------------------
 
@@ -219,8 +220,43 @@
 # n = int(input())
 # for i in range(n):
 #     print('*' * 19)
-        
 
+# ----------------------------------------------------------------
 
+# (6) 7.1 Цикл for
 
+# line = input()
+# for i in range(10):
+#     print(i, line)
 
+# ----------------------------------------------------------------
+
+# (7) 7.1 Цикл for
+
+# num = int(input())
+# for i in range(num + 1):
+#     print('Квадрат числа', i, 'равен', i * i )
+
+# ----------------------------------------------------------------
+
+# (8) 7.1 Цикл for
+
+# num = int(input())
+# for i in range(num):
+#     print ((num - i) * '*')
+
+# ----------------------------------------------------------------
+
+# (9) 7.1 Цикл for
+
+# m, p, n = int(input()), int(input()), int(input())
+# for i in range(n):
+#     print(i+1, m*(p/100+1)**i)
+
+# ----------------------------------------------------------------
+
+# (6) 7.2 Цикл for: функция range
+
+# m, n = int(input()), int(input())
+# for i in range(m, n+1):
+#     print(i)
