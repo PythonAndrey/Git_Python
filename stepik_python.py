@@ -373,6 +373,5 @@
 
 # num = int(input())
 # for i in range(1, 10 + 1):
-#     a = num * i
-#     print(num, i, a)
+#     print(num, 'x', i, '=', num * i)
     
